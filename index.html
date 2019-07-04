@@ -9,9 +9,11 @@
       href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab&display=swap"
       rel="stylesheet"
     />
+    
     <title>GTCoding</title>
   </head>
   <body>
+    
     <div id="slideout-menu">
       <ul>
         <li><a href="#">Home</a></li>
@@ -20,7 +22,7 @@
         <li><a href="#">About</a></li>
         <li><input type="text" placeholder="Search Here" /></li>
         <br />
-        <a href="#"><i class="fas fa-search"> </i></a>
+        <!-- <i href="#"><i class="fas fa-search"> </i></a> -->
       </ul>
     </div>
     <nav>
@@ -57,58 +59,82 @@
           <div class="card-image">
             <a href="#"><img src="img/1.jpg" alt="Card Image"/></a>
           </div>
+            <div class="card-desciption">
+            <a href="#">
+                <h3>The Blog Title Here</h3>
+            </a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
+                magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
+                soluta officiis in similique necessitatibus? Explicabo at quam
+                exercitationem cupiditate.
+            </p>
+            <a href="#" class="btn-readmore">Read more</a>
+            </div>
         </div>
 
-        <div class="card-desciption">
-          <a href="#"><h3>The Blog Title Here</h3></a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
-            magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
-            soluta officiis in similique necessitatibus? Explicabo at quam
-            exercitationem cupiditate.
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
+        
+        <div class="card">
+            <div class="card-image">
+                <a href="#"><img src="img/2.jpg" alt="Card Image" /></a>
+            </div>
+            <p class="card-desciption">
+                <a href="#">
+                    <h3>The Blog Title Here</h3>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
+                    magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
+                    soluta officiis in similique necessitatibus? Explicabo at quam
+                    exercitationem cupiditate.
+                </p>
+                <a href="#" class="btn-readmore">Read more</a>
+            </p>
         </div>
+        
+        
       </section>
 
       <h2 class="section-heading">All Projects</h2>
       <section>
         <div class="card">
           <div class="card-image">
-            <a href="#"><img src="img/2.jpg" alt="Card Image"/></a>
-          </div>
-        </div>
-
-        <div class="card-desciption">
-          <a href="#">
-            <h3>The Project Title Here</h3>
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
-            magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
-            soluta officiis in similique necessitatibus? Explicabo at quam
-            exercitationem cupiditate.
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
-        </div>
-        <div class="card">
-          <div class="card-image">
             <a href="#"><img src="img/3.jpg" alt="Card Image"/></a>
           </div>
+        <div class="card-desciption">
+            <a href="#">
+                <h3>The Project Title Here</h3>
+            </a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
+                magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
+                soluta officiis in similique necessitatibus? Explicabo at quam
+                exercitationem cupiditate.
+            </p>
+            <a href="#" class="btn-readmore">Read more</a>
+        </div>
         </div>
 
-        <div class="card-desciption">
-          <a href="#">
-            <h3>The Project Title Here</h3>
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
-            magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
-            soluta officiis in similique necessitatibus? Explicabo at quam
-            exercitationem cupiditate.
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
+        
+        <div class="card">
+          <div class="card-image">
+            <a href="#"><img src="img/4.jpg" alt="Card Image"/></a>
+          </div>
+            <div class="card-desciption">
+                <a href="#">
+                    <h3>The Project Title Here</h3>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
+                    magni numquam. Dicta aperiam, fugiat ratione, omnis totam minus ea
+                    soluta officiis in similique necessitatibus? Explicabo at quam
+                    exercitationem cupiditate.
+                </p>
+                <a href="#" class="btn-readmore">Read more</a>
+            </div>
         </div>
+
+       
       </section>
 
       <h2 class="section-heading">Source Code</h2>
@@ -119,7 +145,7 @@
           voluptatibus reprehenderit repellat est dolore maiores perferendis
           alias odit. Nobis, sapiente consequatur!
         </p>
-        <a href="#">Github Profile</a>
+        <a class="btn-profile btn-readmore" href="#">Github Profile</a>
       </section>
 
       <footer>
@@ -139,8 +165,9 @@
         <div id="right-footer">
             <h3>Follow Us on</h3>
             <div id="social-media-footer">
+                <!-- hover effect using css is not working -->
                 <ul>
-                    <li><a href="#"><li class="fab fa-facebook"></li></a></li>
+                    <li><a class="socialmedia" href="#"><li class="fab fa-facebook"></li></a></li>
                     <li><a href="#"><li class="fab fa-twitter"></li></a></li>
                     <li><a href="#"><li class="fab fa-github"></li></a></li>
                     <li><a href="#"><li class="fab fa-youtube"></li></a></li>
@@ -150,7 +177,9 @@
         <p>This website is design by wadda.jm</p>
       </footer>
     </main>
-
+    
+    <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/8e279aea77.js"></script>
-  </body>
+    
+</body>
 </html>
